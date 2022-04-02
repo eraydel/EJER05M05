@@ -14,6 +14,9 @@
 		D0524C6F27F8E61B002862E0 /* EJER05M05.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0524C6D27F8E61B002862E0 /* EJER05M05.xcdatamodeld */; };
 		D0524C7127F8E61D002862E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0524C7027F8E61D002862E0 /* Assets.xcassets */; };
 		D0524C7427F8E61D002862E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0524C7227F8E61D002862E0 /* LaunchScreen.storyboard */; };
+		D0524C7C27F8E7AC002862E0 /* MascotaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0524C7B27F8E7AC002862E0 /* MascotaTableViewController.swift */; };
+		D0524C7F27F8E80B002862E0 /* Mascota+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0524C7D27F8E80B002862E0 /* Mascota+CoreDataClass.swift */; };
+		D0524C8027F8E80B002862E0 /* Mascota+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0524C7E27F8E80B002862E0 /* Mascota+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		D0524C7027F8E61D002862E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0524C7327F8E61D002862E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0524C7527F8E61D002862E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0524C7B27F8E7AC002862E0 /* MascotaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotaTableViewController.swift; sourceTree = "<group>"; };
+		D0524C7D27F8E80B002862E0 /* Mascota+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mascota+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D0524C7E27F8E80B002862E0 /* Mascota+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mascota+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		D0524C6327F8E61B002862E0 /* EJER05M05 */ = {
 			isa = PBXGroup;
 			children = (
+				D0524C7D27F8E80B002862E0 /* Mascota+CoreDataClass.swift */,
+				D0524C7E27F8E80B002862E0 /* Mascota+CoreDataProperties.swift */,
 				D0524C6427F8E61B002862E0 /* AppDelegate.swift */,
 				D0524C6627F8E61B002862E0 /* SceneDelegate.swift */,
 				D0524C6827F8E61B002862E0 /* ViewController.swift */,
@@ -66,6 +74,7 @@
 				D0524C7227F8E61D002862E0 /* LaunchScreen.storyboard */,
 				D0524C7527F8E61D002862E0 /* Info.plist */,
 				D0524C6D27F8E61B002862E0 /* EJER05M05.xcdatamodeld */,
+				D0524C7B27F8E7AC002862E0 /* MascotaTableViewController.swift */,
 			);
 			path = EJER05M05;
 			sourceTree = "<group>";
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0524C8027F8E80B002862E0 /* Mascota+CoreDataProperties.swift in Sources */,
+				D0524C7F27F8E80B002862E0 /* Mascota+CoreDataClass.swift in Sources */,
 				D0524C6927F8E61B002862E0 /* ViewController.swift in Sources */,
 				D0524C6527F8E61B002862E0 /* AppDelegate.swift in Sources */,
 				D0524C6727F8E61B002862E0 /* SceneDelegate.swift in Sources */,
+				D0524C7C27F8E7AC002862E0 /* MascotaTableViewController.swift in Sources */,
 				D0524C6F27F8E61B002862E0 /* EJER05M05.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
